@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.TBasic.Armatura">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="599" height="481"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b2f34" class="javax.swing.JLabel" binding="naslov">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Kalkulator min i max armature za ploče"/>
+        </properties>
+      </component>
+      <component id="30c45" class="javax.swing.JLabel" binding="dimenzije">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DImenzije:"/>
+        </properties>
+      </component>
+      <component id="f4cd9" class="javax.swing.JLabel" binding="dimenzijaLx">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lx"/>
+        </properties>
+      </component>
+      <component id="52f68" class="javax.swing.JTextField" binding="dimenzijaLxTextField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4c6e7" class="javax.swing.JLabel" binding="dimenzijaLy">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ly"/>
+        </properties>
+      </component>
+      <component id="64b13" class="javax.swing.JTextField" binding="dimenzijaLyTextField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2d91d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="m"/>
+        </properties>
+      </component>
+      <component id="810d3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="m"/>
+        </properties>
+      </component>
+      <component id="df790" class="javax.swing.JLabel" binding="KlasaBetona">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Klasa betona"/>
+        </properties>
+      </component>
+      <component id="83a5" class="javax.swing.JComboBox" binding="klasaBetonaComboBox">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f59e0" class="javax.swing.JRadioButton" binding="jednostrukoArmiraniPresjekRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Jednostruko armirani presjek"/>
+        </properties>
+      </component>
+      <component id="d7f30" class="javax.swing.JRadioButton" binding="dvostrukoArmiraniPresjekRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dvostruko armirani presjek"/>
+        </properties>
+      </component>
+      <component id="a2f29" class="javax.swing.JLabel" binding="debljinaZastitnogSloja">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Debljina zaštitnog sloja:"/>
+        </properties>
+      </component>
+      <component id="e802a" class="javax.swing.JTextField" binding="zastitniSlojTextField">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3c4c9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="cm"/>
+        </properties>
+      </component>
+      <component id="d1058" class="javax.swing.JLabel" binding="pretpostavljenaArmatura">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pretpostavljena armatura:"/>
+        </properties>
+      </component>
+      <component id="c2a04" class="javax.swing.JLabel" binding="fi_x">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="fi(x)"/>
+        </properties>
+      </component>
+      <component id="ba44" class="javax.swing.JLabel" binding="fi_y">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="fi(y)"/>
+        </properties>
+      </component>
+      <component id="90b85" class="javax.swing.JTextField" binding="fi_x_TextField">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bcde" class="javax.swing.JTextField" binding="fi_y_TextField">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="36b11" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="mm"/>
+        </properties>
+      </component>
+      <component id="f8e1c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="mm"/>
+        </properties>
+      </component>
+      <component id="e22e5" class="javax.swing.JLabel" binding="minArmatura">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="As,min:"/>
+        </properties>
+      </component>
+      <component id="1bba2" class="javax.swing.JLabel" binding="maxArmaturaa">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="As, max:"/>
+        </properties>
+      </component>
+      <component id="7ae1c" class="javax.swing.JButton" binding="izracunajButton">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Izračunaj"/>
+        </properties>
+      </component>
+      <component id="f4d4b" class="javax.swing.JLabel" binding="rezMinArmatura">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="minArmatura"/>
+        </properties>
+      </component>
+      <component id="122ac" class="javax.swing.JLabel" binding="rezMaxArmatura">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="maxArmatura"/>
+        </properties>
+      </component>
+      <component id="782b5" class="javax.swing.JLabel" binding="dimenzijaH">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="h"/>
+        </properties>
+      </component>
+      <component id="7fc83" class="javax.swing.JTextField" binding="dimenzijaHTextField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="52943" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="m"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
